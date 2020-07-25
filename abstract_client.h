@@ -918,6 +918,7 @@ Q_SIGNALS:
     void hasApplicationMenuChanged(bool);
     void applicationMenuActiveChanged(bool);
     void unresponsiveChanged(bool);
+    void shortcutChanged();
 
 protected:
     AbstractClient();
